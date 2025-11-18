@@ -194,7 +194,9 @@ long microsecondsToCentimeters(long microseconds)
 {
    return microseconds / 29 / 2;
 }
-
+```
+### Uplink Formatter
+```
 /*function Decoder(bytes, port) {
   // Extract distance from the first two bytes
   var distance = (bytes[0] << 8) + bytes[1];
