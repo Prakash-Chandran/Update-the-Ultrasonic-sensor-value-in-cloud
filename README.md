@@ -194,6 +194,18 @@ long microsecondsToCentimeters(long microseconds)
 {
    return microseconds / 29 / 2;
 }
+
+/*function Decoder(bytes, port) {
+  // Extract distance from the first two bytes
+  var distance = (bytes[0] << 8) + bytes[1];
+
+  // Convert to centimeters (assuming millimeters are being sent)
+  var distance_in_cm = distance / 100;
+
+  return {
+    "distance": distance_in_cm
+  };
+}*/
 ```
 # CIRCUIT DIAGRAM:
 ![USS](https://github.com/user-attachments/assets/475cd2dc-2d4f-4435-aadd-edf439a046cc)
